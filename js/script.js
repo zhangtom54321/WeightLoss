@@ -2,7 +2,6 @@ window.onload = function(){
   var database = firebase.database()
   var reference = database.ref()
   var submitButton = document.getElementById("vive-button5");
-
   submitButton.onclick = function(){
     var emailValue = document.getElementById("emailEnter").value;
     var cityValue = document.getElementById("emailEnter2").value;
@@ -10,4 +9,14 @@ window.onload = function(){
 
     reference.push({ email: emailValue, city: cityValue, username: usernameValue })
   };
+
+  function sendMail(){
+    var link = "mailto:pairofweights@gmail.com"
+      + "?cc=herman.saini@gmail.com"
+      + "&subject= " + escape("Welcome to POW")
+      + "&body=" + escape("Hi")
+      ;
+
+      window.location.href = link;
+  }
 }
