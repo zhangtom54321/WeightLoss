@@ -67,7 +67,7 @@
   transition: .2s;
   text-align: center;
   text-decoration: none;
-  border: 1px solid #00c9fb;
+  border: 1px solid #FFFFFF;
   border-radius: 21px;
   outline: 0;
   cursor: pointer;
@@ -75,13 +75,14 @@
   align-items: center;
   font-family: "Fakt-Normal",Helvetica,Arial;
   background-color: transparent;
-  color: #00c9fb;
+  color: #FFFFFF;
   padding: 0px 14px;
 }
 
 #vive-button:hover{
   color: #111820;
   background-color: #00c9fb;
+  text-decoration: none;
 }
 
 #sign-in{
