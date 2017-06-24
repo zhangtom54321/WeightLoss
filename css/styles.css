@@ -10,6 +10,7 @@
   position:  fixed;
   z-index: 101;
   top: 0;
+  width: 100%;
 }
 #inTopSection{
   width: 85.15%;
