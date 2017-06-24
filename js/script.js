@@ -10,14 +10,4 @@ window.onload = function(){
 
     // reference.push({ email: emailValue, city: cityValue, username: usernameValue })
   };
-
-  function sendMail(){
-    var link = "mailto:pairofweights@gmail.com"
-      + "?cc=herman.saini@gmail.com"
-      + "&subject= " + escape("Welcome to POW")
-      + "&body=" + escape("Hi")
-      ;
-
-      window.location.href = link;
-  }
 }
