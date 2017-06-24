@@ -106,3 +106,29 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+#vive-button5{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 36px;
+  height: 38px;
+  transition: .2s;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #00c9fb;
+  border-radius: 21px;
+  cursor: pointer;
+  font-family: "Fakt-Normal",Helvetica,Arial;
+  background-color: #00c9fb;
+  color: #FFFFFF;
+  width: 209px;
+  position: absolute;
+  transform: translate(-50%);
+  position: absolute;
+  left: 1000px;
+  top: 35%;
+}
+
+#vive-button5:hover{
+  color: black;
+}
