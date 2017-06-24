@@ -1,6 +1,4 @@
 window.onload = function(){
-  var database = firebase.database()
-  var reference = database.ref()
   var submitButton = document.getElementById("vive-button5");
   submitButton.onclick = function(){
     alert("We have recieved your info!");
