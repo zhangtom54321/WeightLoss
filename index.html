@@ -276,6 +276,14 @@
       messagingSenderId: "774598065347"
     };
     firebase.initializeApp(config);
+    var database = firebase.database();
+    function writeUserData(userId, name, email, cityName){
+      firebase.database().ref('users/' + userId).set({
+        username: name,
+        email: email,
+        city: cityName;
+      });
+    }
   </script>
 
     <!-- jQuery -->
