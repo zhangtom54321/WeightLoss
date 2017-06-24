@@ -41,7 +41,7 @@
 }
 
 .navs{
-  color: #CCCCCC;
+  color: #FFFFFF;
   font-family: "Fakt-Normal",Helvetica,Arial;
   font-size: 16px;
   float: left;
@@ -56,7 +56,7 @@
 }
 
 .navs:hover{
-  border-bottom: 4px solid #00c9fb;
+  border-bottom: 4px solid #FFFFFF;
 }
 
 #vive-button{
