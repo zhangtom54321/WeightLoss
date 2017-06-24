@@ -3,7 +3,7 @@ window.onload = function(){
   var reference = database.ref()
   var submitButton = document.getElementById("vive-button5");
   submitButton.onclick = function(){
-    alert("We have recieved you inf0!");
+    alert("We have recieved your info!");
     var emailValue = document.getElementById("emailEnter").value;
     var cityValue = document.getElementById("emailEnter2").value;
     var usernameValue = document.getElementById("emailEnter3").value;
