@@ -5,10 +5,10 @@ A website developed for CUHacks 2016.
 Tom Zhang
 
 ## Collaborators:
-Herman Saini
-Ankit Rustagi
-Pranav Palla
-Rohit Cutinha
+Herman Saini\n
+Ankit Rustagi\n
+Pranav Palla\n
+Rohit Cutinha\n
 Jayanth (forgot his last name)
 
-Created using BootStrap framework.
+## Created using BootStrap framework.
